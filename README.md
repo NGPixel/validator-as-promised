@@ -6,6 +6,10 @@
 
 String validation ([validator.js](https://github.com/chriso/validator.js)) and custom validators using promises
 
+### Requirements
+
+- NodeJS `6.x` or later
+
 ### Usage
 
 All standard [validator.js](https://github.com/chriso/validator.js) methods are available.
