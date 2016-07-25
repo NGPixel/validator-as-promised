@@ -1,8 +1,10 @@
 <a href="http://promisesaplus.com/">
     <img src="http://promisesaplus.com/assets/logo-small.png" alt="Promises/A+ logo" title="Promises/A+ 1.1 compliant" align="right" />
 </a>
+
 # Validator.js for Promises
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Downloads][downloads-image]][npm-url]
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Downloads][downloads-image]][npm-url] [![License][license-image]][license-url]
 
 String validation ([validator.js](https://github.com/chriso/validator.js)) and custom validators using promises
 
@@ -65,3 +67,6 @@ $ npm test
 
 [travis-url]: https://travis-ci.org/NGPixel/validator-as-promised.js
 [travis-image]: https://travis-ci.org/NGPixel/validator-as-promised.svg?branch=master
+
+[license-url]: https://github.com/NGPixel/validator-as-promised/blob/master/LICENSE
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
