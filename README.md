@@ -63,5 +63,5 @@ $ npm test
 [npm-url]: https://npmjs.org/package/validator-as-promised
 [npm-image]: http://img.shields.io/npm/v/validator-as-promised.svg
 
-[travis-url]: https://travis-ci.org/ngpixel/validator.js
-[travis-image]: http://img.shields.io/travis/ngpixel/validator-as-promised.js.svg
+[travis-url]: https://travis-ci.org/NGPixel/validator-as-promised.js
+[travis-image]: https://travis-ci.org/NGPixel/validator-as-promised.svg?branch=master
