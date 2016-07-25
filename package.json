@@ -1,0 +1,35 @@
+{
+  "name": "validator-as-promised",
+  "version": "1.0.0",
+  "description": "String validation and sanitization (validator.js) using promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "_mocha -R spec tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NGPixel/validator-as-promised.git"
+  },
+  "keywords": [
+    "validator",
+    "promises",
+    "string",
+    "validation"
+  ],
+  "author": "Nicolas Giard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NGPixel/validator-as-promised/issues"
+  },
+  "homepage": "https://github.com/NGPixel/validator-as-promised#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "lodash": "^4.14.0",
+    "validator": "^5.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.5.3"
+  }
+}
