@@ -18,7 +18,7 @@ All standard [validator.js](https://github.com/chriso/validator.js) methods are 
 
 Simply add the `Async` suffix to use the promise-based version. The first parameter is always the error message string which will be thrown as an error if the promise is rejected.
 
-`isAlphanumeric(value)` becomes `isAlphanumericAsync(errorMsg, value)`
+Method `isAlphanumeric(value)` becomes `isAlphanumericAsync(errorMsg, value)`
 
 Example:
 
@@ -43,12 +43,22 @@ validator.isAlphanumericAsync('String should contain alphanumeric characters!', 
 You can define your own validation functions using the built-in `.custom(errorMsg, func [, args...])` method:
 
 ```js
+// Example 1
 validator.custom('Should be true!', (val) => { return val === true; }, true).then((result) => {
 	console.log('Value is true!');
 }).catch((ex) => {
 	console.log('Value was not true!');
 });
+
+// Example 2
+validator.custom('First number should be lower than second number!', (num1, num2) => { return num1 < num2; }, 34, 87).then((result) => {
+	console.log('Validation succeeded!');
+}).catch((ex) => {
+	console.log('Validation failed!');
+});
 ```
+
+The custom function should return a truthy value or a promise. Synchronous functions will be promisified automatically.
 
 Unlike validator.js methods which only accepts string inputs, the custom validators can accept values of any type.
 
@@ -58,7 +68,9 @@ Unlike validator.js methods which only accepts string inputs, the custom validat
 $ npm test
 ```
 
-### License (MIT)
+### License
+
+MIT
 
 [downloads-image]: http://img.shields.io/npm/dm/validator-as-promised.svg
 

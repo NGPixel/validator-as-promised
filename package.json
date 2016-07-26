@@ -12,9 +12,13 @@
   },
   "keywords": [
     "validator",
-    "promises",
-    "string",
-    "validation"
+    "validation",
+    "validate",
+    "promise",
+    "promised",
+    "asynchronous",
+    "async",
+    "assert"
   ],
   "author": "Nicolas Giard",
   "license": "MIT",
