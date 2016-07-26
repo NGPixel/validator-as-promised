@@ -1,6 +1,6 @@
 {
   "name": "validator-as-promised",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "String validation and sanitization (validator.js) using promises",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,6 @@
     "mocha": "^2.5.3"
   },
   "engines" : {
-    "node" : ">=6.0.0"
+    "node" : ">=4.0.0"
   }
 }
